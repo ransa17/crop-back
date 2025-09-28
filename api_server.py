@@ -8,6 +8,7 @@ import logging
 import requests
 import json
 import time
+import os 
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logging.info("Starting API server setup...")
@@ -163,4 +164,5 @@ async def predict_yield(request: PredictionRequest):
 
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    port = int(os.environ.get("PORT", 8000))
+    uvicorn.run(app, host="0.0.0.0", port=port)
