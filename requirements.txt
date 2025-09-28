@@ -139,7 +139,6 @@ pure_eval==0.2.3
 pyarrow==20.0.0
 pyasn1==0.6.1
 pyasn1_modules==0.4.2
-PyAudio==0.2.14
 pybase64==1.4.2
 pydantic==2.11.7
 pydantic-settings==2.10.1
@@ -149,7 +148,6 @@ Pygments==2.19.2
 pyparsing==3.2.3
 PyPika==0.48.9
 pyproject_hooks==1.2.0
-pyreadline3==3.5.4
 python-dateutil==2.9.0.post0
 python-dotenv==1.1.1
 python-multipart==0.0.20
@@ -217,5 +215,6 @@ xxhash==3.5.0
 yarl==1.20.1
 zipp==3.23.0
 zstandard==0.24.0
+
 
 
