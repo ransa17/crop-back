@@ -1,4 +1,6 @@
-﻿absl-py==2.3.1
+python-3.11.0
+
+absl-py==2.3.1
 agno==1.7.0
 aiofiles==24.1.0
 aiohappyeyeballs==2.6.1
@@ -215,6 +217,7 @@ xxhash==3.5.0
 yarl==1.20.1
 zipp==3.23.0
 zstandard==0.24.0
+
 
 
 
