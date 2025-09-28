@@ -10,7 +10,6 @@ anyio==4.9.0
 asttokens==3.0.0
 astunparse==1.6.3
 attrs==25.3.0
-autogen-core==0.6.2
 autogen-ext==0.6.2
 backoff==2.2.1
 bcrypt==4.3.0
@@ -120,7 +119,6 @@ opentelemetry-exporter-otlp-proto-common==1.37.0
 opentelemetry-exporter-otlp-proto-grpc==1.37.0
 opentelemetry-proto==1.37.0
 opentelemetry-sdk==1.37.0
-opentelemetry-semantic-conventions==0.58b0
 opt_einsum==3.4.0
 optree==0.17.0
 orjson==3.11.3
@@ -219,4 +217,5 @@ xxhash==3.5.0
 yarl==1.20.1
 zipp==3.23.0
 zstandard==0.24.0
+
 
